@@ -1,2 +1,2 @@
 #!/bin/bash
-curl https://apitmindia.herokuapp.com/tran/latest
+curl https://transfermarketapi.herokuapp.com/tran/latest
