@@ -19,4 +19,4 @@ print("QUERY EXECUTED")
 
 conn.close()
 
-rc = subprocess.run("./script.sh")
+rc = subprocess.run("bash script.sh")
