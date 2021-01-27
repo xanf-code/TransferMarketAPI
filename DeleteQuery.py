@@ -1,5 +1,6 @@
 import psycopg2
 import subprocess
+import requests
 
 conn = psycopg2.connect(
     database = "dd75re8gpemlhh",
@@ -19,4 +20,6 @@ print("QUERY EXECUTED")
 
 conn.close()
 
-rc = subprocess.run("./script.sh")
+#rc = subprocess.run("./script.sh")
+
+res = requests.get('https://transfermarketapi.herokuapp.com/tran/latest')
