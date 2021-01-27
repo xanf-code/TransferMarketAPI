@@ -19,4 +19,5 @@ print("QUERY EXECUTED")
 
 conn.close()
 
-rc = subprocess.run("bash script.sh")
+#rc = subprocess.run("./script.sh")
+heroku run bash script.sh
