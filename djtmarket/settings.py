@@ -114,11 +114,11 @@ WSGI_APPLICATION = 'djtmarket.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dd75re8gpemlhh',
-        'HOST' : 'ec2-18-210-51-239.compute-1.amazonaws.com',
+        'NAME': 'd7pic7g7pocpki',
+        'HOST' : 'ec2-54-159-113-254.compute-1.amazonaws.com',
         'PORT' : 5432,
-        'USER' : 'dgasqbsxpyknsj',
-        'PASSWORD' : 'b291aec1072c11c216a18636825ae58778688c3d57ee779cd951ddbb9299e6ce'
+        'USER' : 'mxubpbomjktthu',
+        'PASSWORD' : '27454f25c9f1eb6edb3d593474420c5fed3641268e9590baeb2a807fede13c8c'
     }
 }
 
